@@ -15,6 +15,41 @@ project 1 - A Random Quote Generator
   Use console.log() to log your array of quotes to the console.
 ***/
 
+let quotes = {
+	quote: "I have the high ground."
+	source: "Obi Wan Kenobi"
+	citation: "Star Wars Episode III (Revenge of the Sith)"
+	year: "2005"
+	tag: "Cool"
+},
+{
+	quote: "Get over here!"
+	source: "Scorpion"
+	citation: "Mortal Kombat"
+	year: ""
+	tag: "Cool"
+},
+{
+	quote: "Grass grows, birds fly, sun shines, and brother, I hurt people."
+	source: "The Scout"
+	citation: "Team Fortress 2"
+	year: ""
+	tag: "Funny"
+},
+{
+	quote: "It’s not that I’m so smart, it’s just that I stay with problems longer."
+	source: "Albert Einstein"
+	citation: ""
+	year: ""
+	tag: "Wise"
+},
+{
+	quote: "If you spend too much time thinking about a thing, you’ll never get it done."
+	source: "Bruce Lee"
+	citation: ""
+	year: ""
+	tag: "Wise"
+}
 
 
 
