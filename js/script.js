@@ -15,7 +15,8 @@ project 1 - A Random Quote Generator
   Use console.log() to log your array of quotes to the console.
 ***/
 
-let quotes = {
+let quotes = [
+{
 	quote: "I have the high ground."
 	source: "Obi Wan Kenobi"
 	citation: "Star Wars Episode III (Revenge of the Sith)"
@@ -50,6 +51,7 @@ let quotes = {
 	year: ""
 	tag: "Wise"
 }
+];
 
 
 
@@ -59,8 +61,10 @@ let quotes = {
    - Cse the random number to `return` a random quote object from the `quotes` array.
 ***/
 
-
-
+function getRandomQuote() {
+	var randomNumber = Math.floor(Math.random() * 6);		/* creates a random number between 0 and 5 */
+	return quotes[randomNumber]		/*returns the object from the array according to the index position of the random number created above */
+}
 
 /***
   Create the `printQuote` function to: 
@@ -75,7 +79,10 @@ let quotes = {
    - Set the `innerHTML` of the `quote-box` div to the HTML string. 
 ***/
 
+function printQuote() {
+	var randomQuote = getRandomQuote()
 
+}
 
 
 /***
